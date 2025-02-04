@@ -18,4 +18,5 @@ def run_backtest(strategy, symbol='BTC-USD', start='2020-01-01', end='2025-01-01
 
     # Run the backtest
     cerebro.run()
-    final_value = cerebro.broker.getvalue
+    final_value = cerebro.broker.getvalue()
+    return final_value
