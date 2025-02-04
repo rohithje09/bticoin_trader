@@ -1,0 +1,7 @@
+dash
+pandas
+backtrader
+yfinance
+sklearn
+plotly
+matplotlib
